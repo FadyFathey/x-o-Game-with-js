@@ -1,0 +1,38 @@
+body
+{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+.game-holder
+{
+    width: 252px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.742);
+    margin: auto;
+    font-weight: 700;
+}
+.title
+{
+    background-color:#BCD8C1;
+    padding: 7px 0;
+    margin: 5px 0;
+}
+span
+{
+    color: red;
+}
+.square
+{
+    width: 80px;
+    height: 80px;
+    background-color: #BCD8C1;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+
+.square:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
